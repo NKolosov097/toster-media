@@ -201,6 +201,10 @@ header {
   transition: transform 1s cubic-bezier(0, 1.5, 1, 1.5);
 }
 
+.slider__item:first-child {
+  opacity: 0.4;
+}
+
 .slider__item:hover {
   transform: scale(1.1);
 }
