@@ -30,6 +30,11 @@ body {
   margin: 0 auto;
 }
 
+main {
+  margin: 0 auto;
+  max-width: 390px;
+}
+
 header {
   display: grid;
   width: 100%;
