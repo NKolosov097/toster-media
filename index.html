@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="application-name" content="Cushion" />
+    <meta name="theme-color" content="#f0f0f0" />
+    <meta name="description" content="Тестовое задание для Toster media" />
+    <meta name="subject" content="Online sneaker store" />
+
+    <link rel="author" href="https://github.com/NKolosov097" />
+    <link rel="icon" href="/img/favicon.svg" />
+    <link rel="apple-touch-icon" href="/img/favicon.svg" />
+    <link
+      rel="mask-icon"
+      href="/img/favicon.svg"
+      color="rgba(248, 182, 86, 1)"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>Cushion</title>
+  </head>
+  <body>
+    <header>
+      <span class="special__offer">
+        &#x1F1FF;&#x1F1E6; SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA
+        &#x1F1FF;&#x1F1E6;
+      </span>
+      <div class="logo__wrapper">
+        <img class="logo" src="img/logo.svg" alt="logo" />
+      </div>
+    </header>
+    <main class="main">
+      <div class="preview__img">
+        <div class="limited__offer">
+          <div class="limited__offer__title">limited offer</div>
+          <div class="limited__offer__timer">
+            <span id="hours" class="limited__offer__hours">10</span
+            ><span id="minutes" class="limited__offer__minutes">00</span
+            ><span id="seconds" class="limited__offer__seconds">00</span>
+          </div>
+        </div>
+        <div class="price__wrapper">
+          <div class="old__price">R 250.00</div>
+          <div class="new__price">R 160.00</div>
+        </div>
+      </div>
+
+      <div class="brief__info">
+        <span>Excellent 4.8/5</span>
+        <img src="img/trustpilot.svg" alt="Trustpilot" />
+        <span class="best__selling">best selling</span>
+      </div>
+
+      <div class="slippers__wrapper">
+        <h1>Orthopedic Slippers</h1>
+        <div class="slider">
+          <div id="shown__slipper" class="shown__slipper"></div>
+          <div class="all__slippers">
+            <div class="slider__item black__slippers"></div>
+            <div class="slider__item orange__slippers"></div>
+            <div class="slider__item pink__slippers"></div>
+            <div class="slider__item yellow__slippers"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="delivery">
+          <span class="delivery__title">Fast Delivery: </span
+          ><span class="delivery__explanation">2-4 days from SA 🇿🇦</span>
+        </div>
+        <div class="stock">
+          <span class="stock__title">In Stock: </span
+          ><span class="stock__explanation">Shipping from Johannesburg 🇿🇦</span>
+        </div>
+
+        <div class="rating">
+          <div class="stars">
+            <span class="star"></span>
+            <span class="star"></span>
+            <span class="star"></span>
+            <span class="star"></span>
+            <span class="star"></span>
+          </div>
+          <span class="reviews__count">(10)</span>
+        </div>
+      </div>
+
+      <form action="#">
+        <div class="selectors">
+          <div class="selector__wrapper">
+            <label for="colors">color</label>
+            <select class="colors__select" name="colors" id="colors">
+              <option class="colors__select__item" value="Black">Black</option>
+              <option class="colors__select__item" value="Orange">
+                Orange
+              </option>
+              <option class="colors__select__item" value="Pink">Pink</option>
+              <option class="colors__select__item" value="Yellow">
+                Yellow
+              </option>
+            </select>
+          </div>
+          <div class="selector__wrapper">
+            <label for="sizes">size</label>
+            <select class="size__select" name="sizes" id="sizes">
+              <option class="size__select__item" value="2">2</option>
+              <option class="size__select__item" value="3">3</option>
+              <option class="size__select__item" value="4">4</option>
+              <option class="size__select__item" value="5">5</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="buy__now" type="button">
+          <a href="https://www.youtube.com/" target="_blank">buy now</a>
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
